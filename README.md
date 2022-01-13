@@ -30,7 +30,7 @@ ubuntuは同時に起動して使うので準備しておくとよい、起動�
  `$ rostopic list `　　  
  `$ rostopic echo /count_up` //確認したら＾C 
  `$ rostopic echo /twice`  
- ## LICENCE  
+ ## LICENSE  
   BSD 2-Clause "Simplified" License 
  ## Author
- Ryuuichi Ueda 
+ Ryuichi Ueda 
