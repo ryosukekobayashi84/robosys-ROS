@@ -19,20 +19,20 @@ twice.pyも実行しても何もかえってこない、こちらも事前に立
 `$ git clone https://github.com/ryosukekobayashi84/robosys-ROS.git`  
 `$ cd robosys-ROS`  
 ubuntuは同時に起動して使うので準備しておくとよい、起動すための準備を順に記載する。  
-端末１  
+端末１  //準備端末
 `$ roscore` //rosの起動   
-端末2  
+端末2  //準備端末
 `$ cd scripts`  
 `$ chmod +x count.py` //パーミッションの設定  
 `$ rosrun mypkg count.py`　//確認したら＾C  
 `$ chmod +x twice.py` //パーミッションの設定  
 `$ rosrun mypkg twice.py`   
 
-端末3  
+端末3 //実際に実行する端末はここ
  `$ rosnode list`        
  `$ rostopic list `　　  
  `$ rostopic echo /count_up` //確認したら＾C   
- `$ rostopic echo /twice`  
+ `$ rostopic echo /twice`  //確認したら＾C  
  ## LICENSE  
   BSD 2-Clause "Simplified" License 
  ## Author
