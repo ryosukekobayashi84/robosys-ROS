@@ -31,7 +31,7 @@ ubuntuは同時に起動して使うので準備しておくとよい、起動�
 端末3  
  `$ rosnode list`        
  `$ rostopic list `　　  
- `$ rostopic echo /count_up` //確認したら＾C 
+ `$ rostopic echo /count_up` //確認したら＾C   
  `$ rostopic echo /twice`  
  ## LICENSE  
   BSD 2-Clause "Simplified" License 
