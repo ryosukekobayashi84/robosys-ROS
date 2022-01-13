@@ -12,7 +12,7 @@ twice.pyも実行しても何もかえってこない、こちらも事前に立
   -Raspberry Pi 4  
   -PC   
   ## 環境  
-  -Ubuntu 20.04 LTS 
+  -Ubuntu 20.04 LTS  
   -ROS: robot operating system
   ## 使い方  
 リポジトリをクローンしてローカルリポジトリの作成  
